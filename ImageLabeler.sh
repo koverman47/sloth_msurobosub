@@ -1,1 +1,6 @@
-sloth --config config.py ~/MSURoboSub/msurobosub_ros/src/ros_frcnn_object_detector/data/MSUPool/
+#!/bin/sh
+
+# Assuming on AUV computer
+sloth --config config.py ~/robocats/image_data/data/MSUPool/
+
+#sloth --config config.py ~/robocats/image_data/data/TRANSDEC/
